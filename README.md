@@ -1,17 +1,17 @@
-Data Cleaning & Preprocessing
+# Data Cleaning & Preprocessing
 
 This project involves the data cleaning and preprocessing steps on the Titanic dataset. The aim is to transform raw data into a suitable format for further analysis or machine learning models.
 
 ---
 
-## 📂 Dataset
+### 📂 Dataset
 
 The dataset used is the famous Titanic passenger data from Kaggle:
 - Includes details like passenger age, gender, ticket fare, travel class, family aboard, and survival status.
 
 ---
 
-## Project Objectives
+### Project Objectives
 
 - Handle missing values using appropriate strategies (mean/mode imputation).
 - Encode categorical variables (`Sex`, `Embarked`) into numerical values.
@@ -20,7 +20,7 @@ The dataset used is the famous Titanic passenger data from Kaggle:
 
 ---
 
-## Data Cleaning Steps
+### Data Cleaning Steps
 
 - Checked for null values using `df.isnull().sum()`
 - Filled missing values:
@@ -30,27 +30,27 @@ The dataset used is the famous Titanic passenger data from Kaggle:
 
 ---
 
-## Feature Encoding
+### Feature Encoding
 
 - `Sex`: Encoded as `male=1`, `female=0`
 - `Embarked`: Encoded as `S=0`, `C=1`, `Q=2`
 
 ---
 
-## Normalization
+### Normalization
 
 - Applied **Min-Max Scaling** 
 
 ---
 
-## Visualizations
+### Visualizations
 
 - Histograms for numerical features
 - Boxplot for Outliers
 
 ---
 
-## Tools Used
+### Tools Used
 
 - Python
 - Pandas
@@ -60,7 +60,7 @@ The dataset used is the famous Titanic passenger data from Kaggle:
 
 ---
 
-## ✅ Output
+### ✅ Output
 
 A clean, preprocessed version of the Titanic dataset ready for building predictive models like logistic regression, decision trees, etc.
 
